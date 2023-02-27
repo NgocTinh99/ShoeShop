@@ -1,0 +1,104 @@
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+}
+
+h1 {
+    color: #004085;
+    font-weight: 700;
+    margin: 40px;
+    font-size: 45px;
+    animation-name: chuyen;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes chuyen{
+    from {transform:translateX(-200px)}
+    to{transform:translateX(0)}
+}
+
+.gachduoi{
+    height: 87px;
+    min-width:100%;
+    border-bottom: 3px solid #004085;
+    animation-name: chuyen2;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes chuyen2{
+    from {transform:translateX(400px)}
+    to{transform:translateX(0)}
+}
+
+
+/* foodter*/
+#footter{
+	background-color:#333;
+	width:100%;
+	color:#CCC;
+	height:350px;
+}
+#footter img {
+	height: 25px;
+	width: 25px;
+}
+div.F-left{
+	padding:20px 200px 50px 60px;
+	display:block;
+	float:left;
+}
+div.tfoot >ul >li >a:hover{
+	color:#F90;
+}
+div.F-right{
+	padding:20px;
+}
+div.tfoot >ul >li{
+	padding: 10px;
+	list-style-type:none;
+}
+div.tfoot >ul >li >a{
+	color:#CCC;
+	text-decoration:none;
+}
+div.web >ul{
+	padding:40px 505px;
+}
+div.web >ul>li{
+	list-style-type:none;
+	float:left;
+	padding:20px;
+}
+div.web >ul >li >img:hover{
+   background-color:#666;
+   cursor:pointer;
+}
+#marq >a>img{
+	padding: 30px 68px 30px 68px ;
+	width: 250px;
+	height:250px;
+	border-radius:25%;
+}
+img{
+	z-index:1;
+	
+}
+h1{
+	margin-bottom: 50px;
+}
+
+.body-giay a {
+	color : grey;
+}
+/* nav */
+.nav-link{
+	color: white !important;
+}
+
+.nav-link:hover{
+	color: yellow !important; 
+}
+.dropdown-item:hover {
+	color: rgb(202, 202, 39) !important;
+}
